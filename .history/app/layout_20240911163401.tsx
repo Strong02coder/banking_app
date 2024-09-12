@@ -15,10 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Horizon",
-  description: "Horizon is a modern banking platform for everyone.",
-	icons: {
-		icon: '/icons/logo.svg'
-	}
+  description: "",
 };
 
 export default function RootLayout({
@@ -28,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}antialiased`}>{children}</body>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
