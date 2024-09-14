@@ -1,4 +1,4 @@
-import HeaderBox from '@/components/Headerbox'
+import HeaderBox from '@/components/HeaderBox'
 import TotalBalanceBox from '@/components/TotalBalanceBox'
 
 const Home = () => {
